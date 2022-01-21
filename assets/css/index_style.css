@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body {
+    background: #eaf8f7;
+    font-family: 'Work Sans', sans-serif;
+  } 
+
+  h1{
+    font-weight: 800;
+    color: #A3BFBC;
+    font-size: 40px;
+    margin-bottom: 10%;
+    margin-left: 5%;
+  }
+
+  .title{
+    font-weight: 800;
+    color: #FEF8F1;
+    font-size: 20px;
+  }
+
+  .modal-dialog, .modal-content {
+    height: 65%;
+    border-radius: 20px;
+    }
+
+    .modal-body {
+    background-color: #FEF8F1;
+    border-radius:0 0 20px 20px;
+    }
+
+    
+
+  img{
+    margin-left: 10%;
+  }
+  .con {
+    width: 200%;
+    text-align: center;
+  }
+
+  .btn{
+      display: inline-block;
+      color: #A3BFBC;
+      height: 32px;
+      text-align: center;
+      vertical-align: middle;
+      padding: 10px;        
+      font-size: 15px;
+      line-height: 0.5;
+      border-radius: 28px;
+      -moz-border-radius: 28px;
+      -webkit-border-radius: 28px;
+      border: 1px solid #A3BFBC;
+      cursor: pointer;
+      background: transparent;
+      font-weight: 700;
+      transition: 0.3s;
+  }
+
+  .h5{
+    justify-content: center;
+    font-size: 10px;
+    display: flex;
+    position: absolute;
+    top: 75%;
+    margin-bottom: 5%;
+    right: 35%;
+    color: #3b3b3b;
+}
+  
+  .container {
+    position: absolute;
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+
+  .myRightCtn {
+    position: relative;
+    background: #A3BFBC;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    color: #FEF8F1;
+    font-size: 12px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .myLeftCtn {
+    position: relative;
+    background: #FEF8F1;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    padding-left: 50px;
+  }
+
+  .row{
+  height: 100%;
+  } 
+  .myCard {
+    position: relative;
+    background: #FEF8F1;
+    height: 100%;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  } 
+  
+  .box {
+    position: relative;
+    margin: 5%;
+  } 
+
+  p{
+    font-weight: 800;
+    font-size: 35px;
+    margin-left: 5%;
+  }
+
+  .signup{
+    font-weight: 500;
+    font-size: 14px;
+    color:#868686;
+  }
+
+  .signup-link{
+    font-weight: 700;
+    font-size: 14px;
+    color:#868686;
+  }
+
+  .signup-link:hover{
+    font-weight: 700;
+    font-size: 14px;
+    color:#A3BFBC;
+    text-decoration: none;
+  }
+
+  .btn:hover{
+    background-color: #D7E8E6;
+    color: #A3BFBC;
+    border: 1px solid #A3BFBC;
+
+  }
+
+  .myLeftCtn .myInput {
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  }
+  .myLeftCtn .myInput:focus {
+    outline: none;
+  } 
+  .myForm {
+    position: relative;
+    margin-top: 50px;
+  } 
+  .myLeftCtn .butt {
+    margin-left: 5%;
+    margin-top: 5%;
+    background: #A3BFBC;
+    color: #FEF8F1;
+    font-weight: 700;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  } 
+  
+  .myLeftCtn .butt:hover {
+    background:#A3BFBC;
+  }
+  .myLeftCtn .butt:focus {
+    outline: none;
+  } 
+
+  .myLeftCtn .fas {
+    position: relative;
+    color: #A3BFBC;
+    left: 36px;
+  } 
+  .butt_out {
+    background: transparent;
+    color: #FEF8F1;
+    width: 120px;
+    border: 2px solid#FEF8F1;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  } 
+  .butt_out:hover {
+    border: 2px solid #bfd6d4;
+  } 
+  .butt_out:focus {
+    outline: none;
+  }
+  
+  
+  
+
