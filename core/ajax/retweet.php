@@ -424,7 +424,7 @@
 							 >  
 								<li ><i class="fas fa-retweet icon"></i> 
 								<span class="option-text"><?php if($user_retweeted_it) echo 'Undo';  ?>
-								Retweet</span></li>
+								Repost</span></li>
 							</a>
 							<a href="#"
 							class="qoute"
@@ -436,7 +436,7 @@
 							// else
 							 echo $tweet_id; ?>"> 
 								 <li><i class="fas fa-pencil-alt icon"></i> 
-								 <span class="option-text"> Qoute Tweet</span></li>
+								 <span class="option-text"> Qoute Post</span></li>
 							</a>
                     </div>
 
