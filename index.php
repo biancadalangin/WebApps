@@ -62,16 +62,11 @@
                                   
                                   }
                                   unset($_SESSION['errors']);  
-
-                                
-                                  
+                                            
                             } 
                                 
                               ?>
-
-                            
-                            
-                           
+    
                         </form>
 
                         <!-- Modal -->
