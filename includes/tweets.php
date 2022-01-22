@@ -151,7 +151,7 @@ else  $comment_count = Tweet::countComments($tweet->id);
         else echo $retweeted_user->name; ?> </a>  reposted</span>
         <?php } ?>
         <div class="grid-tweet">
-        <a style="position: relative; z-index:1000" href="<?php echo $tweet_user->username;  ?>">
+        <a style="position: relative;" href="<?php echo $tweet_user->username;  ?>">
         <img
         src="assets/images/users/default.jpg"
         alt=""
@@ -161,7 +161,7 @@ else  $comment_count = Tweet::countComments($tweet->id);
 
         <div>
         <p> 
-        <a style="position: relative; z-index:1000; color:black" href="<?php echo $tweet_user->username;  ?>">
+        <a style="position: relative; color:#3b3b3b" href="<?php echo $tweet_user->username;  ?>">
         <strong> <?php echo $tweet_user->name ?> </strong> 
         </a>
         <span class="username-twitter">@<?php echo $tweet_user->username ?> </span>
@@ -203,7 +203,7 @@ else  $comment_count = Tweet::countComments($tweet->id);
 
         <div>
         <p> 
-        <a style="position: relative; z-index:1000; color:black" href="<?php echo $user_inner_tweet->username;  ?>">
+        <a style="position: relative; z-index:1000; color:#3b3b3b" href="<?php echo $user_inner_tweet->username;  ?>">
         <strong> <?php echo $user_inner_tweet->name ?> </strong> 
         </a>
         <span class="username-twitter">@<?php echo $user_inner_tweet->username ?> </span>

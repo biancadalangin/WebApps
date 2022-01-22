@@ -194,7 +194,7 @@
 
 
         <div class="wrapper-right">
-            <div style="width: 90%;" class="container">
+            <div  class="container">
 
           <div class="input-group py-2 m-auto pr-5 position-relative">
 

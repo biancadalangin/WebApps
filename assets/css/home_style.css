@@ -56,6 +56,7 @@
    /* INPUT SEARCH*/
   
    #mine .grid-posts {
+	z-index: 0;
 	display: grid;
 	grid-template-columns: 64.8% auto;
 	background-color: #FEF8F1;
@@ -218,6 +219,7 @@
   }
   
   #mine .grid-tweet {
+	z-index: 0;
 	display: grid;
 	grid-template-columns: 10% 90%;
 	margin-left: 15px;
@@ -1124,27 +1126,12 @@
 		display: none;
 		width: 0;
 	}
-	#mine .wrapper-left .button-twittear{
-		display: none;
-	}
-	#mine .wrapper-left .sidebar-left {
-		position: fixed !important;
-		width: 40px !important;
-		height: 100%;
-		background-color: #ffffff !important;
-		font-size: 19px !important;
-		border-right: 0.5px solid #e6ecf0 !important;
-		margin-left: 15px !important;
-	  }
-	  #mine .wrapper-left .grid-sidebar .wrapper-left-elements {
-		display: none;
-	  } 
 	  #mine .grid-posts {
 		display: grid;
 		grid-template-columns: 100% auto;
-		background-color: rgb(255, 255, 255);
+		background-color: #fef8f1;
 		margin-left: 2%;
-	  }
+	  }	
 	  #mine .border-right {
 		border-right: 0.5px solid #e6ecf0;
 	  }
@@ -1248,27 +1235,12 @@
     }
     .wrapper-right {
 		/* display: none; */
-		width: 42% !important;
+		width: 90% !important;
 	}
-	#mine .wrapper-left .button-twittear{
-		display: none;
-	}
-	#mine .wrapper-left .sidebar-left {
-		position: fixed !important;
-		width: 40px !important;
-		height: 100%;
-		background-color: #ffffff !important;
-		font-size: 19px !important;
-		border-right: 0.5px solid #e6ecf0 !important;
-		margin-left: 15px !important;
-	  }
-	  #mine .wrapper-left .grid-sidebar .wrapper-left-elements {
-		display: none;
-	  } 
 	  #mine .grid-posts {
 		display: grid;
 		grid-template-columns: 57% auto;
-		background-color: rgb(255, 255, 255);
+		background-color: #fef8f1;
 		margin-left: 2%;
 	  }
 	  #mine .border-right {

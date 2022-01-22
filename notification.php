@@ -152,14 +152,14 @@
                                 </div>
                                 <div class="notify-user">
                                     <p>
-                                    <a style="position: relative; z-index:1000;" href="<?php echo $user->username;  ?>">
+                                    <a style="position: relative; " href="<?php echo $user->username;  ?>">
                                         <img class="img-user" style="height: 35px;" src="assets/images/users/<?php echo $user->img ?>" alt="">
                                     </a> 
                                     
                                     </p>
                                     <p> <a style="font-weight: 700;
                                     font-size:18px;
-                                    position: relative; z-index:1000;" href="<?php echo $user->username; ?>">
+                                    position: relative;" href="<?php echo $user->username; ?>">
                                     <?php echo $user->name; ?> </a> <?php echo $msg; ?> 
                                     <span style="font-weight: 500;" class="ml-3">
                                       <?php echo $timeAgo; ?>
